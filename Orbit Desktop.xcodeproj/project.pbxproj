@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84CEDDE1E1702A1007A9295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */; };
+		F84CEDE01E1702A1007A9295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CEDDF1E1702A1007A9295 /* ViewController.swift */; };
+		F84CEDE21E1702A1007A9295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84CEDE11E1702A1007A9295 /* Assets.xcassets */; };
+		F84CEDE51E1702A1007A9295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84CEDE31E1702A1007A9295 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F84CEDDA1E1702A1007A9295 /* Orbit Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbit Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F84CEDDF1E1702A1007A9295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F84CEDE11E1702A1007A9295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F84CEDE41E1702A1007A9295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84CEDE61E1702A1007A9295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84CEDD71E1702A1007A9295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84CEDD11E1702A1007A9295 = {
+			isa = PBXGroup;
+			children = (
+				F84CEDDC1E1702A1007A9295 /* Orbit Desktop */,
+				F84CEDDB1E1702A1007A9295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84CEDDB1E1702A1007A9295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84CEDDA1E1702A1007A9295 /* Orbit Desktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84CEDDC1E1702A1007A9295 /* Orbit Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */,
+				F84CEDDF1E1702A1007A9295 /* ViewController.swift */,
+				F84CEDE11E1702A1007A9295 /* Assets.xcassets */,
+				F84CEDE31E1702A1007A9295 /* Main.storyboard */,
+				F84CEDE61E1702A1007A9295 /* Info.plist */,
+			);
+			path = "Orbit Desktop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84CEDD91E1702A1007A9295 /* Orbit Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84CEDE91E1702A1007A9295 /* Build configuration list for PBXNativeTarget "Orbit Desktop" */;
+			buildPhases = (
+				F84CEDD61E1702A1007A9295 /* Sources */,
+				F84CEDD71E1702A1007A9295 /* Frameworks */,
+				F84CEDD81E1702A1007A9295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orbit Desktop";
+			productName = "Orbit Desktop";
+			productReference = F84CEDDA1E1702A1007A9295 /* Orbit Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84CEDD21E1702A1007A9295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kasama;
+				TargetAttributes = {
+					F84CEDD91E1702A1007A9295 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9AP3GRDUFP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F84CEDD51E1702A1007A9295 /* Build configuration list for PBXProject "Orbit Desktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84CEDD11E1702A1007A9295;
+			productRefGroup = F84CEDDB1E1702A1007A9295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84CEDD91E1702A1007A9295 /* Orbit Desktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84CEDD81E1702A1007A9295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84CEDE21E1702A1007A9295 /* Assets.xcassets in Resources */,
+				F84CEDE51E1702A1007A9295 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84CEDD61E1702A1007A9295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84CEDE01E1702A1007A9295 /* ViewController.swift in Sources */,
+				F84CEDDE1E1702A1007A9295 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F84CEDE31E1702A1007A9295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84CEDE41E1702A1007A9295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84CEDE71E1702A1007A9295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F84CEDE81E1702A1007A9295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F84CEDEA1E1702A1007A9295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AP3GRDUFP;
+				INFOPLIST_FILE = "Orbit Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasama.Orbit-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F84CEDEB1E1702A1007A9295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9AP3GRDUFP;
+				INFOPLIST_FILE = "Orbit Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasama.Orbit-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84CEDD51E1702A1007A9295 /* Build configuration list for PBXProject "Orbit Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84CEDE71E1702A1007A9295 /* Debug */,
+				F84CEDE81E1702A1007A9295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84CEDE91E1702A1007A9295 /* Build configuration list for PBXNativeTarget "Orbit Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84CEDEA1E1702A1007A9295 /* Debug */,
+				F84CEDEB1E1702A1007A9295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84CEDD21E1702A1007A9295 /* Project object */;
+}
