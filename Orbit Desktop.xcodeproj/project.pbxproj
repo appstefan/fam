@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82F9EA01E1AFE0E00B466A9 /* OrbitCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F9E9F1E1AFE0E00B466A9 /* OrbitCore.swift */; };
+		F82F9EA41E1B01E000B466A9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F9EA31E1B01E000B466A9 /* CloudKit.framework */; };
 		F84CEDDE1E1702A1007A9295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */; };
 		F84CEDE01E1702A1007A9295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CEDDF1E1702A1007A9295 /* ViewController.swift */; };
 		F84CEDE21E1702A1007A9295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84CEDE11E1702A1007A9295 /* Assets.xcassets */; };
 		F84CEDE51E1702A1007A9295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84CEDE31E1702A1007A9295 /* Main.storyboard */; };
+		F8DC93C51E19AE670080C8F8 /* OrbitBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC93C41E19AE670080C8F8 /* OrbitBeacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F82F9E9F1E1AFE0E00B466A9 /* OrbitCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitCore.swift; sourceTree = "<group>"; };
+		F82F9EA11E1B01DE00B466A9 /* Orbit Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Orbit Desktop.entitlements"; sourceTree = "<group>"; };
+		F82F9EA31E1B01E000B466A9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		F84CEDDA1E1702A1007A9295 /* Orbit Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbit Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84CEDDF1E1702A1007A9295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F84CEDE11E1702A1007A9295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84CEDE41E1702A1007A9295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F84CEDE61E1702A1007A9295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DC93C41E19AE670080C8F8 /* OrbitBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitBeacon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +34,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82F9EA41E1B01E000B466A9 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F82F9EA21E1B01E000B466A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82F9EA31E1B01E000B466A9 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F84CEDD11E1702A1007A9295 = {
 			isa = PBXGroup;
 			children = (
 				F84CEDDC1E1702A1007A9295 /* Orbit Desktop */,
 				F84CEDDB1E1702A1007A9295 /* Products */,
+				F82F9EA21E1B01E000B466A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +69,11 @@
 		F84CEDDC1E1702A1007A9295 /* Orbit Desktop */ = {
 			isa = PBXGroup;
 			children = (
+				F82F9EA11E1B01DE00B466A9 /* Orbit Desktop.entitlements */,
 				F84CEDDD1E1702A1007A9295 /* AppDelegate.swift */,
 				F84CEDDF1E1702A1007A9295 /* ViewController.swift */,
+				F82F9E9F1E1AFE0E00B466A9 /* OrbitCore.swift */,
+				F8DC93C41E19AE670080C8F8 /* OrbitBeacon.swift */,
 				F84CEDE11E1702A1007A9295 /* Assets.xcassets */,
 				F84CEDE31E1702A1007A9295 /* Main.storyboard */,
 				F84CEDE61E1702A1007A9295 /* Info.plist */,
@@ -95,6 +115,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9AP3GRDUFP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,6 +163,8 @@
 			files = (
 				F84CEDE01E1702A1007A9295 /* ViewController.swift in Sources */,
 				F84CEDDE1E1702A1007A9295 /* AppDelegate.swift in Sources */,
+				F8DC93C51E19AE670080C8F8 /* OrbitBeacon.swift in Sources */,
+				F82F9EA01E1AFE0E00B466A9 /* OrbitCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +276,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Orbit Desktop/Orbit Desktop.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9AP3GRDUFP;
 				INFOPLIST_FILE = "Orbit Desktop/Info.plist";
@@ -260,6 +292,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Orbit Desktop/Orbit Desktop.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9AP3GRDUFP;
 				INFOPLIST_FILE = "Orbit Desktop/Info.plist";
@@ -289,6 +323,7 @@
 				F84CEDEB1E1702A1007A9295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
